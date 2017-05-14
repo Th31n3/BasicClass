@@ -8,11 +8,11 @@ class Hello:
         self.age = age
         
     def fullname(self):
-    self.fname = input("Enter your first name: ")
-    self.lname = input("Enter your last name: \n")
-    self.age = input("Enter your age: \n")
+        self.fname = input("Enter your first name: ")
+        self.lname = input("Enter your last name: \n")
+        self.age = input("Enter your age: \n")
     
     def nput(self):
-    print("Your name is {} {} and your age is {}")
+        print("Your name is {} {} and your age is {}")
     
 print(nput.Hello())
